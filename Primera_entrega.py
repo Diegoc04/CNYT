@@ -49,13 +49,7 @@ def Car_Pol(Z):
     θ = θ * 180/3.14
     A = print(f"La representacion polar del numero complejo introducido es {r}[{θ}]°")
     return A
-"""""
-#polar a cartesiano ///
-a = r * math.cos(θ)
-b = r * math.sin(θ)
 
-print(f"{a} + {b}j")
-"""""
 #fase de un numero complejo
 def Fase(Z):
     a = Z.real
@@ -84,7 +78,3 @@ def main():
     
 
 main()
-"""""
-X = input("introduzca el primer numero complejo en la forma (a + bi): ")
-Y = input("introduzca el segundo numero complejo en la forma (a + bi): ")
-"""""
